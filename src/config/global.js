@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Prestación del servicio',
+    descripcionCurso:
+      'El componente formativo aborda la organización y ejecución de servicios gastronómicos, incluyendo tipos de menús, montaje de mesas, y atención en banquetes. Detalla roles del personal, formas de servir alimentos y bebidas, y recomendaciones para asegurar calidad y eficiencia, con el objetivo de satisfacer a los clientes y mejorar la experiencia gastronómica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,31 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Prestación del servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Servicio de alimentos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Servicio de bebidas',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de menú',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Organización de un banquete',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +111,124 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Prestación del servicio ',
+      referencia:
+        'Educaton Colombia. (2019). ¿Cómo Organizar un Buffet Perfecto? Descubre los Secretos de este Servicio de Comida Libre. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=iczugtjrbQA  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Servicio de alimentos ',
+      referencia:
+        'Human Sciences Extension and Outreach. (2018).Tiempo y temperatura - servicio de comida.  ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GhVrByGbvZY  ',
+    },
+    {
+      tema: 'Servicio de bebidas ',
+      referencia:
+        'INA VIRTUAL. (2023). Técnicas de montaje en el servicio de alimentos y bebidas - VÍDEO 4 - Tipos de montaje. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ITyxVG3zKto  ',
+    },
+    {
+      tema: 'Tipos de menú ',
+      referencia:
+        'Jericksa Atencio ().10 cosas que NO PUEDEN FALTAR en la carta o MENÚ de un restaurante / #gastronomía #comida #ingresos. [Archivo de video] Youtube.   ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=OfkfZ7gNb5I  ',
+    },
+    {
+      tema: 'Organización de un banquete ',
+      referencia:
+        'INA VIRTUAL. (2023).Técnicas de montaje en el servicio de alimentos y bebidas - VÍDEO 6 - Técnicas de montaje. [Archivo de video] Youtube.    ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=MHaksU3uPWM  ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Barman',
+      significado:
+        'cantinero encargado de servir las bebidas en bares fijos o móviles durante un evento. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Buffet</em>',
+      significado:
+        'servicio de autoservicio en el que los alimentos se disponen en una mesa y los comensales eligen lo que desean. ',
+    },
+    {
+      termino: 'Cantinero',
+      significado:
+        'persona encargada de servir bebidas, generalmente en bares fijos o carros bares. ',
+    },
+    {
+      termino: 'Carro bar',
+      significado: 'mueble móvil desde el cual se sirven bebidas en eventos. ',
+    },
+    {
+      termino: '<em>Coffee Break</em>',
+      significado:
+        'pausa breve en la que se sirven café, pan y otras opciones como jugos, frutas, pastelería, etc. ',
+    },
+    {
+      termino: 'Entremés',
+      significado:
+        'pequeño bocado o aperitivo que se sirve antes del plato principal. ',
+    },
+    {
+      termino: 'Menú de bocadillo',
+      significado:
+        'menú compuesto por pequeños bocados, generalmente servidos en eventos informales o de corta duración. ',
+    },
+    {
+      termino: 'Menú emplatado',
+      significado:
+        'tipo de servicio en el que los alimentos se presentan previamente en platos individuales antes de ser servidos. ',
+    },
+    {
+      termino: '<em>Stewarts</em>',
+      significado:
+        'persona encargada de la limpieza del menaje (platos, vasos, cubiertos, etc.) y del manejo de la máquina lavavajillas. ',
+    },
+    {
+      termino: 'Trinchar',
+      significado:
+        'cortar alimentos, como carnes, en porciones más pequeñas para ser servidos a los comensales. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Barceló, C. (2018). Protocolo y organización de celebraciones y banquetes. Asociación Española de Protocolo.',
+      link:
+        'https://www.aeprotocolo.org/protocolo-y-organizacion-de-celebraciones-y-banquetes-parte-iii/ ',
+    },
+    {
+      referencia:
+        'Gestión Gastronómica. (2020). Control de costes y márgenes en banquetes.',
       link: '',
+    },
+    {
+      referencia:
+        'Muñoz, E. (2013). Gestión de servicios de alimentos y bebidas. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Reserva Grupos. (2016.). El protocolo y el ceremonial: Cómo organizar un banquete (parte I). ',
+      link:
+        'https://www.reserva-grupos.com/el-protocolo-y-el-ceremonial-como-organizar-un-banquete-parte-i/ ',
+    },
+    {
+      referencia:
+        'Unilever Food Solutions. (s.f.). Gestión de banquetes y eventos "Catering".',
+      link:
+        'https://www.unileverfoodsolutions.com.ar/inspiracion-para-chefs/banquetes-y-celebraciones-/gestion-de-banquetes-y-eventos-catering.html ',
+    },
+    {
+      referencia: 'Weezevent. (2023). Organizar un banquete en 9 pasos. ',
+      link: 'https://weezevent.com/es/blog/organizar-banquete/ ',
     },
   ],
   creditos: [
@@ -165,7 +266,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
