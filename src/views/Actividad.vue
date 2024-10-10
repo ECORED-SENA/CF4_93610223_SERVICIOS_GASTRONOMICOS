@@ -23,7 +23,8 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la función principal del stewart en un banquete? ',
+          texto:
+            '¿Cuál es la función principal del <em>stewart</em> en un banquete? ',
           imagen: require('@/assets/actividad/pregunta_1.png'),
           barajarRespuestas: true,
           opciones: [

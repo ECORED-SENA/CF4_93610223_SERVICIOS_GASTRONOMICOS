@@ -34,7 +34,7 @@
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Atender los bares fijos o carros bares.
+                  span.ps-2 Atender los bares fijos o carros bar.
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
@@ -133,7 +133,7 @@
               figure.m-auto.col-8.col-md-6.col-lg-12
                 img(src='@/assets/curso/tema3/7.png')
     
-    p.mt-5(data-aos="fade-up") Algunas referencias que se deben utilizar para dividir el personal de servicio que pasa bandejas, trabaja con carros bares y recoge las estaciones son las siguientes:
+    p.mt-5(data-aos="fade-up") Algunas referencias que se deben utilizar para dividir el personal de servicio que pasa bandejas, trabaja con carros bar y recoge las estaciones son las siguientes:
 
     .col-xl-10.m-auto.mt-4
       .row
@@ -207,7 +207,7 @@
               i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
               span.ps-2 En #[em buffets] de gran tamaño, se utiliza un colillero para limpiar ceniceros y recoger desperdicios del suelo.
       
-      p.mt-4(data-aos="fade-right") La presentación y servicio en un buffet-cena:
+      p.mt-4(data-aos="fade-right") La presentación y servicio en un #[em buffet]-cena:
 
       .p-4.mt-4.p-xl-5.pb-xl-4.pt-xl-4(style="background-color:#E2DACC;")
         .row
