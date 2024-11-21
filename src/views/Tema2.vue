@@ -167,23 +167,35 @@
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Tomates rellenos.
+                  span.ps-2 Pan y mantequilla (variedad de ambos).
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Albóndigas de atún o carne.
+                  span.ps-2 Barra de ensaladas.
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Brochetas de vegetales con salsa de quesos.
+                  span.ps-2 De 1 a 2 platos fríos (fiambres, patés).
               .bg-white.p-3.mb-2(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Champiñones rellenos.
+                  span.ps-2 De 4 a 6 platos calientes (papas, vegetales, arroz, carnes rojas, pescados, mariscos, pastas, pastelones, etc.).
+              .bg-white.mb-2.p-3(style="border-radius:5px;")
+                .d-flex
+                  i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
+                  span.ps-2 Bandeja de quesos (eventualmente).
+              .bg-white.mb-2.p-3(style="border-radius:5px;")
+                .d-flex
+                  i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
+                  span.ps-2 Sopas o cremas (eventualmente).
+              .bg-white.mb-2.p-3(style="border-radius:5px;")
+                .d-flex
+                  i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
+                  span.ps-2 Postres.
               .bg-white.p-3(style="border-radius:5px;")
                 .d-flex
                   i.fas.fa-check-circle.mt-1(style="color:#FF7630;")
-                  span.ps-2 Canapés de camarones al ajillo.
+                  span.ps-2 Cafés.                                             
             .col-lg-5.d-none.d-lg-block(style="place-self:center;")
               figure
                 img(src="@/assets/curso/tema2/17.png")
